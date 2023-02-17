@@ -9,9 +9,7 @@
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
 }
-body{
-  background-color: rgb(26 35 46);
-}
+
 
 .gradient-01 {
   background-image: linear-gradient(

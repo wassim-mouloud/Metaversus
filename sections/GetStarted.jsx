@@ -21,7 +21,7 @@ const GetStarted = () => (
         </motion.div>
         <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex flex-col justify-center p-2">
+        className="flex-[0.75] flex flex-col justify-center p-2 px-[30px]">
           <TypingText title="| How Metaversus works"/>
           <TitleText title="Get started with just a few clicks" />
           <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
@@ -31,8 +31,6 @@ const GetStarted = () => (
             )
           })}
           </div>
-        
-
         </motion.div>
     </motion.div>
   </section>
