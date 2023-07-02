@@ -8,8 +8,13 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
+
 }
 
+html{
+  background:rgb(26,35,46);
+  overflow-x: hidden;
+}
 
 .gradient-01 {
   background-image: linear-gradient(

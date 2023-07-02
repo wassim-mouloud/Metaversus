@@ -34,6 +34,11 @@ const Hero = () => (
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-5 relative -top-[50px]"
         />
+        <a href="#explore">
+          <div className='w-full  relative z-10 ' >
+            <img src="/stamp.png" alt="explore" className='object-contain w-[100px] sm:w-[155px] h-[100px] sm:h-[155px] absolute  md:bottom-[3px] md:left-[1000px] left-[220px] bottom-[10px]' />
+          </div>
+        </a>
     </motion.div>
   </motion.div>
   </section>
