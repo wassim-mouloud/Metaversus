@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 
-import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
@@ -24,7 +23,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       </h3>
     ) : (
       <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-j
+        j
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Enter Metaverse
         </p>
