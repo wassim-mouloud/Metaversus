@@ -9,8 +9,7 @@ const Footer = () => (
   <motion.footer
     variants={footerVariants}
     initial="hidden"
-    whileInView="show"
-    viewport={{ once: true }}
+    animate="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="footer-gradient" />

@@ -13,13 +13,13 @@ const WhatsNew = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      whileInView="show"
-      viewport={{once:false, amount:0.25}}
+      animate="show"
+      viewport={{once:true, amount:0.25}}
       className={`${styles.innerWidth} flex flex-col lg:flex-row gap-8 mx-auto`}>
         <motion.div
           variants={planetVariants('right')}
-          className='flex-1 flex justify-center items-center'>
-          <img src="/whats-new.png" alt="what's-new" className='w-[90%] h-[90%] object-contain'/>
+          className='flex items-center justify-center flex-1'>
+          <img src="/whats-new.webp" alt="what's-new" className='w-[90%] h-[90%] object-contain'/>
         </motion.div>
       <motion.div 
           variants={fadeIn('right', 'tween', 1.2, 1)}

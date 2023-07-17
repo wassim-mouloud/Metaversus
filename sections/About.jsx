@@ -5,11 +5,11 @@ import styles from "../styles";
 import { TypingText } from "../components/CustomTexts";
 const About = () => (
   <section className={`${styles.paddings} relative z-10 `}>
-    <div className="gradient-02 z-0" />
+    <div className="z-0 gradient-02" />
     <motion.div
     variants={staggerContainer}
     initial="hidden"
-    whileInView="show"
+    animate="show"
     viewport={{ once: false, amount: 0.25 }}
     className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >

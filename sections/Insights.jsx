@@ -9,7 +9,7 @@ const Insights = () => (
     <motion.div
     variants={staggerContainer}
     initial="hidden"
-    whileInView="show"
+    animate="show"
     viewport={{once:false, amount:0.25}}
     className={`${styles.innerWidth} mx-auto flex flex-col items-center `}
     >
