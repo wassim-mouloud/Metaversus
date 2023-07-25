@@ -11,7 +11,7 @@ const Navbar = () => {
     <motion.nav
       variants={navVariants}
       initial="hidden"
-      animate="show"
+      whileInView="show"
       viewport={{ once: true }}
       className={`${styles.xPaddings} py-8 relative flex justify-between gap-8 items-center`}
     >
