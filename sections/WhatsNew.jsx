@@ -13,8 +13,8 @@ const WhatsNew = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      animate="show"
-      viewport={{once:true, amount:0.25}}
+      whileInView="show"
+      viewport={{ once: true }}
       className={`${styles.innerWidth} flex flex-col lg:flex-row gap-8 mx-auto`}>
         <motion.div
           variants={planetVariants('right')}

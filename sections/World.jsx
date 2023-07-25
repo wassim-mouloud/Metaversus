@@ -8,8 +8,8 @@ const World = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      animate="show"
-      viewport={{once:false, amount:0.25}}
+      whileInView="show"
+      viewport={{ once: true }}
       className="flex flex-col 2xl:max-w-[1280px] w-full mx-auto">
 
       <TypingText title="| People on the world" textStyles="text-center"/>      

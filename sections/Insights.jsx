@@ -9,8 +9,8 @@ const Insights = () => (
     <motion.div
     variants={staggerContainer}
     initial="hidden"
-    animate="show"
-    viewport={{once:false, amount:0.25}}
+    whileInView="show"
+    viewport={{ once: true }}
     className={`${styles.innerWidth} mx-auto flex flex-col items-center `}
     >
       <TypingText title="| Insight" textStyles="text-center" />

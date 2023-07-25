@@ -16,8 +16,8 @@ const Explore = () => {
       <motion.div
         variants={staggerContainer}
         initial="hidden"
-        animate="show"
-        viewport={{ once: false, amount: 0.25 }}
+        whileInView="show"
+        viewport={{ once: true }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| The World" textStyles="text-center" />

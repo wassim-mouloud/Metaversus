@@ -7,8 +7,8 @@ const Feedback = () => (
     <motion.div 
      variants={staggerContainer}
      initial="hidden"
-     animate="show"
-     viewport={{ once: false, amount: 0.25 }}
+     whileInView="show"
+     viewport={{ once: true }}
      className={`${styles.innerWidth}  mx-auto flex lg:flex-row flex-col gap-6`}>
       <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}

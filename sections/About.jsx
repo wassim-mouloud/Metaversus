@@ -9,12 +9,15 @@ const About = () => (
     <motion.div
     variants={staggerContainer}
     initial="hidden"
-    animate="show"
-    viewport={{ once: false, amount: 0.25 }}
+    whileInView="show"
+    viewport={{ once: true }}
     className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText title="| About Metaversus" textStyles="text-center" />
       <motion.p
+      viewport={{ once: true }}
+
+
        variants={fadeIn('up','tween', 0.2, 1)} 
        className='mt-[8px] font-normal sm:text-[32px] text-center text-secondary-white'
       >
